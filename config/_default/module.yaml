@@ -1,28 +1,25 @@
-############################
-## HUGO MODULES
-## Install or uninstall themes and plugins here.
-## Docs: https://gohugo.io/hugo-modules/
-############################
-
 imports:
-  - path: github.com/HugoBlox/kit/modules/integrations/netlify
+  # 核心模块
   - path: github.com/HugoBlox/kit/modules/blox
+  
+  # 学术模块（人员+论文+项目+课程）
+  - path: github.com/HugoBlox/kit/modules/blox-academic
+  
+  # 博客模块（用于新闻 News）
+  - path: github.com/HugoBlox/kit/modules/blog
+  
+  # 幻灯片模块（教学用，可选）
   - path: github.com/HugoBlox/kit/modules/slides
+  
+  # SEO 优化（可选）
+  - path: github.com/HugoBlox/kit/modules/seo
 
-# Install any Hugo Blox within the `hugo-blox/blox/` folder
+# 本地自定义模块
 mounts:
-  - source: hugo-blox/blox/community
-    target: layouts/_partials/blox/community/
-    files:
-      - '**.html'
-  - source: hugo-blox/blox/all-access
+  - source: hugo-blox/blox
     target: layouts/_partials/blox/
     files:
       - '**.html'
-  - source: hugo-blox/blox
-    target: assets/dist/community/blox/
-    files:
-      - '**.css'
   - source: layouts
     target: layouts
   - source: assets
