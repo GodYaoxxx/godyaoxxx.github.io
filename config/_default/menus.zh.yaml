@@ -1,0 +1,31 @@
+main:
+  - name: 首页
+    url: /
+    weight: 10
+  - name: 团队
+    url: /authors/
+    weight: 20
+  - name: 研究
+    url: /project/
+    weight: 30
+  - name: 论文
+    url: /publication/
+    weight: 40
+  - name: 获奖
+    url: /awards/
+    weight: 50
+  - name: 教学
+    url: /course/
+    weight: 60
+  - name: 相册
+    url: /gallery/
+    weight: 70
+  - name: 动态
+    url: /post/
+    weight: 80
+  - name: 设备
+    url: /facilities/
+    weight: 90
+  - name: 联系
+    url: /contact/
+    weight: 100
