@@ -1,29 +1,30 @@
+// ==========================================
 // 导航栏品牌两行式设计
-.navbar-brand {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 600;
+// ==========================================
+
+// 找到导航栏里的品牌链接
+.nav-brand,
+.navbar .brand,
+header a[href="/"] {
+  display: flex !important;
+  flex-direction: column !important;
+  line-height: 1.2 !important;
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+  text-decoration: none !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
 }
 
-// 在简写下面加一行小字全称
-.navbar-brand::after {
-  content: "Active Matter & Micro-Nanorobotics Lab";
-  font-size: 0.65rem;
-  font-weight: 400;
-  color: #666;
-  margin-top: 2px;
-  letter-spacing: 0.01em;
-  white-space: nowrap;
-}
-
-// 中文也可以做同样的效果（可选）
-// 如果中文也想要两行，把下面的注释去掉
-html[lang="zh"] .navbar-brand::after {
-  content: "活性物质与微纳机器人实验室";
-  font-size: 0.7rem;
+// 在下面加一行小字全称
+.nav-brand::after,
+.navbar .brand::after,
+header a[href="/"]::after {
+  content: "Active Matter & Micro-Nanorobotics Lab" !important;
+  font-size: 0.65rem !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  margin-top: 2px !important;
+  letter-spacing: 0.01em !important;
+  white-space: nowrap !important;
 }
