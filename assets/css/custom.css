@@ -1,12 +1,6 @@
 /* 针对菜单项之间的间距进行调整 */
 .navbar-nav .nav-item .nav-link {
   /* 调整水平方向的内边距，默认通常是 1rem 左右，你可以改小到 0.5rem */
-  padding-left: 0.4rem !important;
-  padding-right: 0.4rem !important;
-}
-@media (min-width: 992px) {
-  .ms-auto {
-    margin-right: auto !important;
-    margin-left: 0 !important; /* 将默认的左侧自动外边距改为右侧自动 */
-  }
+  padding-left: 0.1rem !important;
+  padding-right: 0.1rem !important;
 }
