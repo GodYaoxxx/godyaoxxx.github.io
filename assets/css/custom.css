@@ -1,6 +1,6 @@
-/* 收紧导航栏菜单项之间的间距（xl大屏） */
-@media (min-width: 1280px) {
-  .navbar-nav.xl\:space-x-8 > * + * {
-    margin-left: 0.75rem !important;
-  }
+/* 针对菜单项之间的间距进行调整 */
+.navbar-nav .nav-item .nav-link {
+  /* 调整水平方向的内边距，默认通常是 1rem 左右，你可以改小到 0.5rem */
+  padding-left: 0.6rem !important;
+  padding-right: 0.6rem !important;
 }
