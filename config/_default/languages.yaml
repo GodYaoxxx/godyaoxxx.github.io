@@ -1,9 +1,9 @@
 zh:
   label: 中文
   weight: 1
-  title: '你的实验室中文名称'
+  title: '活性物质与微纳机器人实验室'
 
 en:
   label: English
   weight: 2
-  title: 'Your Lab Name in English'
+  title: 'Active Matter & Micro-Nanorobotics Lab'
