@@ -1,0 +1,27 @@
+/* 导航栏品牌两行式设计 */
+.nav-brand,
+.navbar-brand,
+header a[href="/"],
+header .brand {
+  display: flex !important;
+  flex-direction: column !important;
+  line-height: 1.2 !important;
+  padding-top: 0.4rem !important;
+  padding-bottom: 0.4rem !important;
+  text-decoration: none !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+}
+
+.nav-brand::after,
+.navbar-brand::after,
+header a[href="/"]::after,
+header .brand::after {
+  content: "Active Matter & Micro-Nanorobotics Lab" !important;
+  font-size: 0.65rem !important;
+  font-weight: 400 !important;
+  color: #666 !important;
+  margin-top: 2px !important;
+  letter-spacing: 0.01em !important;
+  white-space: nowrap !important;
+}
