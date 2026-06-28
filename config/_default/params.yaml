@@ -41,5 +41,3 @@ map:
   provider: ''
   api_key: ''
 
-custom_css:
-  - "css/custom.css"
