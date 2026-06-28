@@ -2,9 +2,6 @@ imports:
   # 核心模块
   - path: github.com/HugoBlox/kit/modules/blox
   
-  # 学术模块（人员+论文+项目+课程）
-  - path: github.com/HugoBlox/kit/modules/blox-academic
-  
   # 博客模块（用于新闻 News）
   - path: github.com/HugoBlox/kit/modules/blog
   
