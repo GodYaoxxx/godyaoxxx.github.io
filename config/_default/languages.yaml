@@ -2,10 +2,8 @@ zh:
   languageName: 中文
   weight: 1
   title: '你的实验室中文名称'
-  contentDir: content
 
 en:
   languageName: English
   weight: 2
   title: 'Your Lab Name in English'
-  contentDir: content/en
