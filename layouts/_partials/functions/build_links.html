@@ -1,0 +1,71 @@
+{{- /* Hugo Blox build_links.html - 修复 $seen map 未初始化 bug */ -}}
+{{- $page := .page -}}
+{{- $is_list := .is_list -}}
+{{- $config := .config | default dict -}}
+
+{{- /* ===== 核心修复：确保 $seen 始终初始化 ===== */ -}}
+{{- $seen := dict -}}
+
+{{- $links := slice -}}
+
+{{- /* 1. 处理新格式 links 数组 */ -}}
+{{- with $page.Params.links -}}
+  {{- range $index, $link := . -}}
+    {{- if reflect.IsMap $link -}}
+      {{- $url := $link.url | default "" -}}
+      {{- $icon := $link.icon | default "link" -}}
+      {{- $name := $link.name | default (humanize $icon) -}}
+      {{- $key := printf "link-%s-%s" $icon (md5 $url) -}}
+      {{- if and $url (not (index $seen $key)) -}}
+        {{- $seen = merge $seen (dict $key true) -}}
+        {{- $links = $links | append $link -}}
+      {{- end -}}
+    {{- else if reflect.IsSlice $link -}}
+      {{- /* 处理 [url, icon, name] 数组格式 */ -}}
+      {{- $url := index $link 0 | default "" -}}
+      {{- $icon := index $link 1 | default "link" -}}
+      {{- $name := index $link 2 | default (humanize $icon) -}}
+      {{- $key := printf "link-%s-%s" $icon (md5 $url) -}}
+      {{- if and $url (not (index $seen $key)) -}}
+        {{- $seen = merge $seen (dict $key true) -}}
+        {{- $links = $links | append (dict "url" $url "icon" $icon "name" $name) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 2. 处理旧版 url_* 参数 */ -}}
+{{- $url_params := slice "url_pdf" "url_code" "url_dataset" "url_poster" "url_slides" "url_video" "url_source" "url_website" "url_citation" "url_document" "url_preprint" -}}
+{{- range $param := $url_params -}}
+  {{- with $page.Param $param -}}
+    {{- $type := strings.TrimPrefix $param "url_" -}}
+    {{- $key := printf "url-%s-%s" $type (md5 .) -}}
+    {{- if not (index $seen $key) -}}
+      {{- $seen = merge $seen (dict $key true) -}}
+      {{- $links = $links | append (dict
+        "url" .
+        "icon" $type
+        "name" (humanize $type)
+      ) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3. 处理其他自定义 url_ 参数 */ -}}
+{{- range $key, $value := $page.Params -}}
+  {{- if and (hasPrefix $key "url_") (not (in $url_params $key)) -}}
+    {{- $type := strings.TrimPrefix $key "url_" -}}
+    {{- $seenKey := printf "url-%s-%s" $type (md5 $value) -}}
+    {{- if not (index $seen $seenKey) -}}
+      {{- $seen = merge $seen (dict $seenKey true) -}}
+      {{- $links = $links | append (dict
+        "url" $value
+        "icon" $type
+        "name" (humanize $type)
+      ) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 返回结果 */ -}}
+{{- return $links -}}
