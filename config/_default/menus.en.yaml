@@ -8,8 +8,8 @@ main:
   - name: Research
     url: /project/
     weight: 30
-  - name: Publications
-    url: /publication/
+  - name: Papers
+    url: /paper/
     weight: 40
   - name: Awards
     url: /awards/
