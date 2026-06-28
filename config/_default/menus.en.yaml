@@ -1,0 +1,31 @@
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: People
+    url: /authors/
+    weight: 20
+  - name: Research
+    url: /project/
+    weight: 30
+  - name: Publications
+    url: /publication/
+    weight: 40
+  - name: Awards
+    url: /awards/
+    weight: 50
+  - name: Teaching
+    url: /course/
+    weight: 60
+  - name: Gallery
+    url: /gallery/
+    weight: 70
+  - name: News
+    url: /post/
+    weight: 80
+  - name: Facilities
+    url: /facilities/
+    weight: 90
+  - name: Contact
+    url: /contact/
+    weight: 100
