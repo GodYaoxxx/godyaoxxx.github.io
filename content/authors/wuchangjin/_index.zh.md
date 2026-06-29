@@ -35,7 +35,6 @@ sections:
       name:
         size: md
         display: true
-        text: "吴昌进"
       avatar:
         size: medium
         shape: circle
