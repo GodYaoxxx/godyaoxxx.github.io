@@ -6,7 +6,7 @@ main:
     url: /authors/
     weight: 20
   - name: 研究
-    url: /project/
+    url: /research/
     weight: 30
   - name: 论文
     url: /publication/
