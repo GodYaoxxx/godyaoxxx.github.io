@@ -6,7 +6,7 @@ avatar: avatar.jpg
 sections:
   - block: resume-biography-3
     content:
-      username: wuchangjine
+      username: wuchangjin
       name: "吴昌进"
       role: "研究员"
       text: |-
