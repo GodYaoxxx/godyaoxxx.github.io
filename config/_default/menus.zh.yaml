@@ -21,7 +21,7 @@ main:
     url: /gallery/
     weight: 70
   - name: 动态
-    url: /post/
+    url: /events/
     weight: 80
   - name: 设备
     url: /facilities/
