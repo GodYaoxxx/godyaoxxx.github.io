@@ -1,7 +1,6 @@
 ---
 title: "吴昌进"
 type: landing
-avatar: avatar.jpg
 
 sections:
   - block: resume-biography-3
@@ -32,7 +31,8 @@ sections:
           enable: true
       name:
         size: md
-        display: true # 显式开启显示
+        display: true
+        text: "吴昌进"
       avatar:
         size: medium
         shape: circle
