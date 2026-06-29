@@ -1,6 +1,6 @@
 ---
 title: "吴昌进"
-#type: landing
+type: landing
 avatar: avatar.jpg
 
 sections:
