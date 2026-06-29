@@ -12,6 +12,10 @@ sections:
         <div class="flex flex-col items-center text-center">
           <a href="/authors/wuchangjin/" class="text-xl text-primary-600 hover:underline mb-1">吴昌进</a>
           <p class="text-gray-500 text-sm mb-3">研究员 / 博士生导师</p>
+          <div class="flex gap-3 justify-center text-gray-500">
+            <a href="mailto:wuchangjin@example.edu.cn"><i class="fas fa-envelope"></i></a>
+            <a href="https://scholar.google.com/"><i class="ai ai-google-scholar"></i></a>
+          </div>
         </div>
     design:
       columns: '1'
@@ -28,10 +32,16 @@ sections:
           <div>
             <a href="/authors/postdoc1/" class="text-primary-600 hover:underline block mb-1">姓名一</a>
             <p class="text-gray-500 text-sm mb-2">博士后</p>
+            <div class="flex gap-2 justify-center text-gray-500 text-sm">
+              <a href="mailto:xxx@email.com"><i class="fas fa-envelope"></i></a>
+            </div>
           </div>
           <div>
             <a href="/authors/postdoc2/" class="text-primary-600 hover:underline block mb-1">姓名二</a>
             <p class="text-gray-500 text-sm mb-2">博士后</p>
+            <div class="flex gap-2 justify-center text-gray-500 text-sm">
+              <a href="mailto:xxx@email.com"><i class="fas fa-envelope"></i></a>
+            </div>
           </div>
         </div>
     design:
@@ -49,6 +59,9 @@ sections:
           <div>
             <a href="/authors/phd1/" class="text-primary-600 hover:underline block mb-1">姓名三</a>
             <p class="text-gray-500 text-sm mb-2">博士研究生</p>
+            <div class="flex gap-2 justify-center text-gray-500 text-sm">
+              <a href="mailto:xxx@email.com"><i class="fas fa-envelope"></i></a>
+            </div>
           </div>
         </div>
     design:
@@ -66,6 +79,9 @@ sections:
           <div>
             <a href="/authors/ra1/" class="text-primary-600 hover:underline block mb-1">姓名四</a>
             <p class="text-gray-500 text-sm mb-2">研究助理</p>
+            <div class="flex gap-2 justify-center text-gray-500 text-sm">
+              <a href="mailto:xxx@email.com"><i class="fas fa-envelope"></i></a>
+            </div>
           </div>
         </div>
     design:
