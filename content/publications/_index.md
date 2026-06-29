@@ -3,20 +3,23 @@ title: "论文成果"
 type: landing
 
 sections:
-  - block: collection
+  - block: markdown
     content:
-      title: ""
-      text: ""
-      count: 0
-      filters:
-        folders:
-          - publications
-      # 新版正确参数
-      search_enabled: true
-      type_filter: true
-      year_filter: true
+      text: |-
+        <div class="max-w-[1600px] mx-auto px-6 text-lg">
+
+        <h3 class="text-xl font-semibold mt-10 mb-4">2026</h3>
+        <p class="mb-4">Wu C, Yang G. <a href="https://doi.org/xxx">Smart Brain-Machine Interfaces for Neural Regulation</a>. <i>Advanced Materials</i>, 2026.</p>
+
+        <p class="mb-4">Wu C. <a href="https://doi.org/xxx">Micro-Nanorobots for Targeted Tumor Therapy</a>. <i>ACS Nano</i>, 2026.</p>
+
+        <h3 class="text-xl font-semibold mt-10 mb-4">2025</h3>
+        <p class="mb-4">Wu C, Wang X. <a href="https://doi.org/xxx">Magnetorheological Soft Actuators</a>. <i>Small</i>, 2025.</p>
+
+        <h3 class="text-xl font-semibold mt-10 mb-4">2024</h3>
+        <p class="mb-4">Wu C. <a href="https://doi.org/xxx">Flexible Implantable Bioelectronics</a>. <i>Nature Communications</i>, 2024.</p>
+
+        </div>
     design:
-      view: citation
-      columns: 1
-      css_class: "max-w-5xl mx-auto px-4"
+      columns: '1'
 ---
