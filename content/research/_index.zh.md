@@ -47,7 +47,7 @@ sections:
         </div>
     design:
       columns: '1'
-      css_class: 'max-w-[min(90vw, 2400px)] mx-auto'
+      css_class: 'max-w-[2000px] w-[90vw] mx-auto'
       spacing:
         padding: ['2rem', '2rem', '6rem', '2rem']
 ---
