@@ -10,7 +10,7 @@ role: "研究员"
 sections:
   - block: resume-biography-3
     content:
-      username: wuchangjin
+      username: 吴昌进
       name: "吴昌进"
       role: "研究员"
       text: |-
