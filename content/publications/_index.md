@@ -3,20 +3,20 @@ title: "论文成果"
 type: landing
 
 sections:
-  - block: publications
+  - block: collection
     content:
       title: ""
       text: ""
       count: 0
-      # 开启顶部搜索与筛选栏（就是截图里的Search、Type、Date）
       filters:
-        search: true
-        type: true
-        year: true
+        folders:
+          - publications
+      # 开启搜索框、类型筛选、年份筛选
+      search: true
+      filter_button: true
+      year_filter: true
     design:
-      # 关键：单列 citation 参考文献视图，和截图一模一样
       view: citation
       columns: 1
-      # 宽度拉满，不再被压缩
-      css_class: "container mx-auto"
+      css_class: "max-w-5xl mx-auto px-4"
 ---
