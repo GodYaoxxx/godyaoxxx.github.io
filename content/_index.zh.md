@@ -8,23 +8,28 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: '实验室简介'
+      title: ''
       subtitle: ''
       text: |-
-        <div class="grid md:grid-cols-[2fr_3fr] gap-10 items-center">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p>活性物质与微纳机器人实验室隶属于<strong>中国科学院东莞材料科学与技术研究所</strong>，依托<strong>中国科学技术大学</strong>建设。</p>
-            <p class="mt-4">实验室聚焦微纳尺度下活性物质系统的基础与应用研究，围绕微纳米机器人设计制备、集群智能调控、精准医疗应用、微流控器件开发等方向开展前沿探索，致力于打造多学科交叉的创新研究平台，推动微纳机器人技术在生物医学、环境治理等领域的成果转化。</p>
+            <h1 class="text-5xl font-light mb-8">活性物质与微纳机器人实验室</h1>
+            <p class="text-lg leading-relaxed mb-6">
+              活性物质与微纳机器人实验室隶属于<strong>中国科学院东莞材料科学与技术研究所</strong>，依托<strong>中国科学技术大学</strong>建设。
+            </p>
+            <p class="text-lg leading-relaxed">
+              实验室聚焦微纳尺度下活性物质系统的基础与应用研究，围绕微纳米机器人设计制备、集群智能调控、精准医疗应用、微流控器件开发等方向开展前沿探索。
+            </p>
           </div>
-          <div class="w-[90%] mx-auto">
-            <img src="/images/lab-photo.jpg" alt="实验室环境照片" class="rounded-lg shadow-md w-full h-auto object-cover">
+          <div>
+            <img src="/images/lab-photo.jpg" alt="实验室团队照片" class="w-full h-auto object-cover">
           </div>
         </div>
     design:
       columns: '1'
-      css_class: 'mx-4 md:mx-8'
+      css_class: 'max-w-screen-2xl mx-auto'
       spacing:
-        padding: ['3rem', '1rem', '3rem', '1rem']
+        padding: ['5rem', '2rem', '5rem', '2rem']
   - block: collection
     id: papers
     content:
