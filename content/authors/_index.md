@@ -3,7 +3,7 @@ title: "团队成员"
 type: landing
 
 sections:
-  # 课题组长
+  # ====== 课题组长 ======
   - block: collection
     content:
       title: "Principal Investigator"
@@ -17,7 +17,7 @@ sections:
       spacing:
         padding: ['3rem', '2rem', '2rem', '2rem']
 
-  # 博士后
+  # ====== 博士后 ======
   - block: collection
     content:
       title: "Postdocs"
@@ -31,7 +31,7 @@ sections:
       spacing:
         padding: ['2rem', '2rem', '2rem', '2rem']
 
-  # 博士生
+  # ====== 博士生 ======
   - block: collection
     content:
       title: "Grad Students"
@@ -45,7 +45,7 @@ sections:
       spacing:
         padding: ['2rem', '2rem', '2rem', '2rem']
 
-  # 研究助理
+  # ====== 研究助理 ======
   - block: collection
     content:
       title: "Research Assistants"
@@ -59,7 +59,7 @@ sections:
       spacing:
         padding: ['2rem', '2rem', '2rem', '2rem']
 
-  # 校友
+  # ====== 校友 ======
   - block: collection
     content:
       title: "Alumni"
