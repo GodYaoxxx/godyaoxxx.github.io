@@ -11,7 +11,7 @@ sections:
       text: |-
         <div class="flex flex-col items-center text-center max-w-xs mx-auto">
           <a href="/authors/wuchangjin/">
-            <img src="/avatars/wuchangjin.jpg" alt="吴昌进" class="w-32 h-32 rounded-full object-cover mx-auto mb-4">
+            <img src="./avatar.jpg" alt="吴昌进" class="w-32 h-32 rounded-full object-cover mx-auto mb-4">
           </a>
           <a href="/authors/wuchangjin/" class="text-xl text-primary-600 hover:underline mb-1">吴昌进</a>
           <p class="text-gray-500 text-sm mb-3">研究员 / 博士生导师</p>
