@@ -1,6 +1,8 @@
 ---
 title: "吴昌进"
 type: landing
+# 【关键】在顶部元数据区也写一次姓名
+name: "吴昌进" 
 first_name: "昌进"
 last_name: "吴"
 role: "研究员"
