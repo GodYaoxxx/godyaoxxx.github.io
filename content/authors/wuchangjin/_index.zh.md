@@ -60,10 +60,3 @@ sections:
         size: medium
         shape: circle
 ---
-          enable: true
-      name:
-        size: lg
-      avatar:
-        size: large
-        shape: circle
----
