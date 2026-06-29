@@ -1,6 +1,7 @@
 ---
 title: "吴昌进"
 type: landing
+avatar: avatar.jpg
 
 sections:
   - block: resume-biography-3
