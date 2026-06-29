@@ -37,7 +37,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: 代表成果
       filters:
         folders:
           - publications
@@ -47,7 +47,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: 最近成果
       text: ''
       filters:
         folders:
@@ -58,7 +58,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: 团队新闻
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
