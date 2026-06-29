@@ -6,7 +6,7 @@ sections:
   # 课题组长
   - block: markdown
     content:
-      title: "课题组长"
+      title: "课题组负责人"
       subtitle: ''
       text: |-
         <div class="flex flex-col items-center text-center max-w-xs mx-auto">
