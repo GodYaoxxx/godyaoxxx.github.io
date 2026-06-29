@@ -31,7 +31,7 @@ sections:
     design:
       columns: '1'
       # 整体区块加宽到 1700px，可按需调大数值
-      css_class: 'max-w-[1700px] mx-auto'
+      css_class: 'max-w-[2000px] mx-auto'
       spacing:
         padding: ['4rem', '2rem', '4rem', '2rem']
   - block: collection
