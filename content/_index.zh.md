@@ -6,16 +6,20 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: markdown
+    - block: markdown
     content:
-      title: '📚 My Research'
+      title: '关于活性物质与微纳机器人实验室'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <p>活性物质与微纳机器人实验室隶属于<strong>中国科学院东莞材料科学与技术研究所</strong>，依托<strong>中国科学技术大学</strong>建设。</p>
+            <p>实验室聚焦微纳尺度下活性物质系统的基础与应用研究，围绕微纳米机器人设计制备、集群智能调控、精准医疗应用、微流控器件开发等方向开展前沿探索，致力于打造多学科交叉的创新研究平台，推动微纳机器人技术在生物医学、环境治理等领域的成果转化。</p>
+          </div>
+          <div>
+            <img src="/images/lab-photo.jpg" alt="实验室环境照片" class="rounded-lg shadow-md w-full h-auto object-cover">
+          </div>
+        </div>
     design:
       columns: '1'
   - block: collection
