@@ -15,7 +15,7 @@ baseURL: 'https://godyaoxxx.github.io/'
 defaultContentLanguage: 'zh'
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
-removePathAccents: true
+removePathAccents: false
 
 ############################
 ## PAGE OPTIONS
