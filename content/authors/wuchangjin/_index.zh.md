@@ -1,5 +1,4 @@
 ---
-avatar: "avatar.jpg"
 title: ''
 summary: ''
 date: 2022-10-24
@@ -14,9 +13,9 @@ sections:
         text: 下载完整简历
         url: uploads/wuchangjin-cv.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: '职业简介'
+        education: '教育经历'
+        interests: '研究方向'
     design:
       background:
         gradient_mesh:
@@ -32,7 +31,7 @@ sections:
       title: '📚 研究概况'
       subtitle: ''
       text: |-
-        中国科学院东莞材料科学与技术研究所研究员，博士生导师。课题组主要开展活性物质物理、微纳米机器人设计制备、集群智能调控及其在精准医疗中的应用研究。欢迎优秀研究生报考与合作交流。
+        课题组面向生物医学精准治疗，开展微纳机器人、活性物质集群智能基础研究，欢迎优秀学生报考研究生。
     design:
       columns: '1'
 ---
