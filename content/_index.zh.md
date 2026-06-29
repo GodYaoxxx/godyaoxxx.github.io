@@ -6,7 +6,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-- block: markdown
+  - block: markdown
     content:
       title: '关于活性物质与微纳机器人实验室'
       subtitle: ''
