@@ -11,9 +11,12 @@ sections:
       title: ''
       subtitle: ''
       text: |-
+        <!-- 居中大标题 -->
+        <h1 class="text-4xl font-light text-center mb-12">活性物质与微纳机器人实验室</h1>
+        
+        <!-- 左文右图分栏 -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 class="text-5xl font-light mb-8">活性物质与微纳机器人实验室</h1>
             <p class="text-lg leading-relaxed mb-6">
               活性物质与微纳机器人实验室隶属于<strong>中国科学院东莞材料科学与技术研究所</strong>，依托<strong>中国科学技术大学</strong>建设。
             </p>
@@ -27,9 +30,10 @@ sections:
         </div>
     design:
       columns: '1'
-      css_class: 'max-w-screen-2xl mx-auto'
+      # 整体区块加宽到 1700px，可按需调大数值
+      css_class: 'max-w-[1700px] mx-auto'
       spacing:
-        padding: ['5rem', '2rem', '5rem', '2rem']
+        padding: ['4rem', '2rem', '4rem', '2rem']
   - block: collection
     id: papers
     content:
