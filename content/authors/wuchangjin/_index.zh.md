@@ -1,6 +1,7 @@
 sections:
   - block: markdown
     content:
+    username: wuchangjin
       text: |-
         <div class="flex flex-col md:flex-row items-center md:items-start gap-6 my-6">
           <img src="/authors/wuchangjin/avatar.jpg" alt="吴昌进" class="w-40 h-40 rounded-full object-cover">
