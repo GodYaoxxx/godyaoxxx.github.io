@@ -12,16 +12,16 @@ sections:
       subtitle: ''
       text: |-
         <!-- 居中大标题 -->
-        <h1 class="text-4xl font-light text-center mb-12">活性物质与微纳机器人实验室</h1>
+        <h1 class="text-2xl font-light text-center mb-12">活性物质与微纳机器人实验室</h1>
         
         <!-- 左文右图分栏 -->
         <div class="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p class="text-lg leading-relaxed mb-6">
-              活性物质与微纳机器人实验室隶属于<strong>中国科学院东莞材料科学与技术研究所</strong>，依托<strong>中国科学技术大学</strong>建设。
+                  活性物质与微纳机器人实验室隶属于<strong>中国科学院东莞材料科学与技术研究所</strong>，依托<strong>中国科学技术大学</strong>建设。
             </p>
             <p class="text-lg leading-relaxed">
-              实验室聚焦微纳尺度下活性物质系统的基础与应用研究，围绕微纳米机器人设计制备、集群智能调控、精准医疗应用、微流控器件开发等方向开展前沿探索。
+                  实验室聚焦微纳尺度下活性物质系统的基础与应用研究，围绕微纳米机器人设计制备、集群智能调控、精准医疗应用、微流控器件开发等方向开展前沿探索。
             </p>
           </div>
           <div>
