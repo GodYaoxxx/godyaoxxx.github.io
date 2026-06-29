@@ -3,73 +3,73 @@ title: "团队成员"
 type: landing
 
 sections:
-  # ====== 课题组长 ======
-  - block: people
+  # 课题组长
+  - block: collection
     content:
       title: "Principal Investigator"
       subtitle: ""
-      user_groups: ["Principal Investigator"]
+      folders: ["authors"]
+      filters:
+        user_groups: ["Principal Investigator"]
     design:
-      columns: 1          # PI 单独一列居中
-      show_role: true    # 显示职位
-      show_social: true  # 显示社交图标
-      show_interests: false # 不显示研究兴趣
+      view: card
+      columns: 1
       spacing:
         padding: ['3rem', '2rem', '2rem', '2rem']
 
-  # ====== 博士后 ======
-  - block: people
+  # 博士后
+  - block: collection
     content:
       title: "Postdocs"
       subtitle: ""
-      user_groups: ["Postdocs"]
+      folders: ["authors"]
+      filters:
+        user_groups: ["Postdocs"]
     design:
-      columns: 5          # 一行 5 个，可按需调整
-      show_role: true
-      show_social: true
-      show_interests: false
+      view: card
+      columns: 5
       spacing:
         padding: ['2rem', '2rem', '2rem', '2rem']
 
-  # ====== 研究生 ======
-  - block: people
+  # 博士生
+  - block: collection
     content:
       title: "Grad Students"
       subtitle: ""
-      user_groups: ["Grad Students"]
+      folders: ["authors"]
+      filters:
+        user_groups: ["Grad Students"]
     design:
+      view: card
       columns: 5
-      show_role: true
-      show_social: true
-      show_interests: false
       spacing:
         padding: ['2rem', '2rem', '2rem', '2rem']
 
-  # ====== 研究助理 ======
-  - block: people
+  # 研究助理
+  - block: collection
     content:
       title: "Research Assistants"
       subtitle: ""
-      user_groups: ["Research Assistants"]
+      folders: ["authors"]
+      filters:
+        user_groups: ["Research Assistants"]
     design:
+      view: card
       columns: 5
-      show_role: true
-      show_social: true
-      show_interests: false
       spacing:
         padding: ['2rem', '2rem', '2rem', '2rem']
 
-  # ====== 校友 ======
-  - block: people
+  # 校友
+  - block: collection
     content:
       title: "Alumni"
       subtitle: ""
-      user_groups: ["Alumni"]
+      folders: ["authors"]
+      filters:
+        user_groups: ["Alumni"]
     design:
+      view: card
       columns: 5
-      show_role: true
-      show_social: true
-      show_interests: false
       spacing:
         padding: ['2rem', '2rem', '4rem', '2rem']
 ---
