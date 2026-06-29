@@ -15,7 +15,7 @@ main:
     url: /awards/
     weight: 50
   - name: 教学
-    url: /course/
+    url: /teaching/
     weight: 60
   - name: 相册
     url: /gallery/
