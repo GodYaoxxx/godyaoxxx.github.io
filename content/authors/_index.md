@@ -6,7 +6,7 @@ sections:
   # 课题组长
   - block: markdown
     content:
-      title: "Principal Investigator"
+      title: "课题组长"
       subtitle: ''
       text: |-
         <div class="flex flex-col items-center text-center max-w-xs mx-auto">
@@ -29,7 +29,7 @@ sections:
   # 博士后
   - block: markdown
     content:
-      title: "Postdocs"
+      title: "博士后"
       subtitle: ''
       text: |-
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
@@ -62,7 +62,7 @@ sections:
   # 博士生
   - block: markdown
     content:
-      title: "Grad Students"
+      title: "博士生"
       subtitle: ''
       text: |-
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
@@ -85,7 +85,7 @@ sections:
   # 研究助理
   - block: markdown
     content:
-      title: "Research Assistants"
+      title: "研究助理"
       subtitle: ''
       text: |-
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
@@ -108,7 +108,7 @@ sections:
   # 校友
   - block: markdown
     content:
-      title: "Alumni"
+      title: "往年成员"
       subtitle: ''
       text: |-
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
