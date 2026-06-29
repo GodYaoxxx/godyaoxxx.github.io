@@ -1,16 +1,13 @@
 ---
 title: "吴昌进"
 type: landing
+avatar: avatar.jpg
 
 sections:
   - block: resume-biography-3
     content:
       username: wuchangjin
       text: |-
-        <!-- 手动插入头像 -->
-        <img src="/authors/wuchangjin/avatar.jpg" 
-             alt="吴昌进" 
-             style="width:150px; height:150px; border-radius:50%; object-fit:cover; margin-bottom:20px;">
         <p>中国科学院东莞材料科学与技术研究所研究员，博士生导师。主要从事活性物质物理、微纳米机器人设计制备、集群智能调控及其在精准医疗领域的应用研究。</p>
         <br>
         <p><strong>教育经历</strong></p>
